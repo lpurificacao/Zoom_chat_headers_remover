@@ -29,7 +29,7 @@ ${\large{\textsf{\textcolor{#0A1589}{How to use it?}}}}$
 
 ${\large{\textsf{\textcolor{#0A1589}{Suggestion}}}}$
 
-Get to the repository ['Python_setup'] (https://github.com/lpurificacao/pyhton_setup) and copy that script.
+Get to the repository [Python_setup](https://github.com/lpurificacao/pyhton_setup) and copy that script.
 
 It creates the virtual environment and installs the emoji module for you.
 
