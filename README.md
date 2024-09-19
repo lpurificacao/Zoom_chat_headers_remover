@@ -13,7 +13,7 @@ However, we find headers in those text files that make the reading troublesome.
 
 ${\large{\textsf{\textcolor{#0A1589}{What does it do?}}}}$
 
-The 'zoom_header_remover.py' script goes through that structure of folders and files to find the most recent chat based on its modification timestamp.
+The `zoom_header_remover.py` script goes through that structure of folders and files to find the most recent chat based on its modification timestamp.
 
 Once it's found, it removes those headers as well as emojis for you.
 
@@ -30,10 +30,6 @@ ${\large{\textsf{\textcolor{#0A1589}{How to use it?}}}}$
 ${\large{\textsf{\textcolor{#0A1589}{Suggestion}}}}$
 
 Get to the repository [Python_setup](https://github.com/lpurificacao/pyhton_setup) and copy that script.
-
-<a href="https://github.com/lpurificacao/pyhton_setup" target="_blank">Python_setup</a>
-
-Click here to visit [Example](https://example.com) or use this HTML link: <a href="https://example.com" target="_blank">Open Example in a new tab</a>.
 
 It creates the virtual environment and installs the emoji module for you.
 
