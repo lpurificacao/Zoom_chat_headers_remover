@@ -33,5 +33,5 @@ Get to the repository [Python_setup](https://github.com/lpurificacao/pyhton_setu
 
 It creates the virtual environment and installs the emoji module for you.
 
-You can then copy the ${\textbf{\textsf{\textcolor{ProcessBlue}'zoom\_header\_remover.py'}}}}$ and run it from there.
+You can then copy the ${\textbf{\textsf{\textcolor{ProcessBlue}`zoom\_header\_remover.py`}}}}$ and run it from there.
 
