@@ -51,7 +51,7 @@ def main():
         with open(clean_chat, 'w') as file:
             for index in clean_content:
                 file.write(f'{index}\n')
-                # print(index)
+                print(index)
         print(f'\nZoom chat was cleaned and written to "{clean_chat}"')
 
     chat_to_txt()
