@@ -4,7 +4,7 @@ import emoji  # https://pypi.org/project/emojis/
 
 
 def main():
-    clean_chat = 'last_chat_cleared_of_headers.txt'
+    clean_chat = 'last-chat-cleared-of-headers.txt'
     ext_type = '*.txt'
 
     def most_recent_file(directory):
