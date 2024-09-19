@@ -17,7 +17,7 @@ The 'zoom_header_remover.py' script goes through that structure of folders and f
 
 Once it's found, it removes those headers as well as emojis for you.
 
-An output file ${\textbf{\textsf{\textcolor{ProcessBlue}{'last-chat-cleared-of-headers.txt'}}}}$ is created for you.
+An output file ${\textbf{\textsf{\textcolor{ProcessBlue}{'last_chat_cleared_of_headers.txt'}}}}$ is created for you.
 
 
 ${\large{\textsf{\textcolor{#0A1589}{How to use it?}}}}$
@@ -33,5 +33,5 @@ Get to the repository [Python_setup](https://github.com/lpurificacao/pyhton_setu
 
 It creates the virtual environment and installs the emoji module for you.
 
-You can then copy the ${\textbf{\textsf{\textcolor{ProcessBlue}`zoom\_header\_remover.py`}}}}$ and run it from there.
+You can then copy the `zoom_header_remover.py` and run it from there.
 
