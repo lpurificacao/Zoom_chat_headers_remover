@@ -19,6 +19,9 @@ Once it's found, it removes those headers as well as emojis for you.
 
 An output file ${\textbf{\textsf{\textcolor{ProcessBlue}{'last_chat_cleared_of_headers.txt'}}}}$ is created for you.
 
+There is also a ${\textbf{\textsf{\textcolor{ProcessBlue}{'dependencies'}}}}$ list. This is where you instruct it to install any libraries.
+
+
 ${\large{\textsf{\textcolor{#0A1589}{How to use it?}}}}$
 
 1. Install the emoji module with "pip install emoji"
