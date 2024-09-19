@@ -33,6 +33,8 @@ Get to the repository [Python_setup](https://github.com/lpurificacao/pyhton_setu
 
 <a href="https://github.com/lpurificacao/pyhton_setup" target="_blank">Python_setup</a>
 
+Click here to visit [Example](https://example.com) or use this HTML link: <a href="https://example.com" target="_blank">Open Example in a new tab</a>.
+
 It creates the virtual environment and installs the emoji module for you.
 
 You can then copy the `zoom_header_remover.py` and run it from there.
