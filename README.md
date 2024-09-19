@@ -17,7 +17,7 @@ The 'zoom_header_remover.py' script goes through that structure of folders and f
 
 Once it's found, it removes those headers as well as emojis for you.
 
-An output file ${\textbf{\textsf{\textcolor{ProcessBlue}{'last_chat_cleared_of_headers.txt'}}}}$ is created for you.
+An output file ${\textbf{\textsf{\textcolor{ProcessBlue}{'last-chat-cleared-of-headers.txt'}}}}$ is created for you.
 
 
 ${\large{\textsf{\textcolor{#0A1589}{How to use it?}}}}$
