@@ -31,7 +31,7 @@ ${\large{\textsf{\textcolor{#0A1589}{Suggestion}}}}$
 
 Go the repository [Python_setup](https://github.com/lpurificacao/python_setup) and download this script.
 
-It will the virtual environment and installs the emoji module for you.
+It will create the virtual environment and installs the emoji module for you.
 
 You can then download the `zoom_chat_headers_remover.py` and run it from the folder you previously created.
 
