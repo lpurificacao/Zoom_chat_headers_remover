@@ -22,14 +22,14 @@ An output file `last_chat_cleared_of_headers.txt` is created for you.
 
 ${\large{\textsf{\textcolor{#0A1589}{How to use it?}}}}$
 
-1. Install the emoji module with "pip install emoji"
+1. Install the emoji module with `pip install emoji`
 2. Just copy the script to the directory where you want to create your Python project.
 3. Run it from your shell or IDE. That's it.
 
 
 ${\large{\textsf{\textcolor{#0A1589}{Suggestion}}}}$
 
-Get to the repository [Python_setup](https://github.com/lpurificacao/pyhton_setup) and copy that script.
+Get to the repository [Python_setup](https://github.com/lpurificacao/python_setup) and copy that script.
 
 It creates the virtual environment and installs the emoji module for you.
 
