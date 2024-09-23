@@ -13,7 +13,7 @@ ${\large{\textsf{\textcolor{#0A1589}{What does it do?}}}}$
 
 The `zoom_header_remover.py` script goes through that structure of folders and files to find the most recent chat based on its modification timestamp.
 
-Once it's found, it removes those headers as well as emojis for you.
+Once it's found, it removes those headers as well as emojis.
 
 An output file `last_chat_cleared_of_headers.txt` is created for you.
 
