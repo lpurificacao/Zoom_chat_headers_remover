@@ -9,7 +9,6 @@ def main():
         It then removes the headers and emojis added in the file by Zoom'''
         last_modified_time = 0
         for root, dirs, files in os.walk('Zoom'):
-            print(dirs)
             if saved_chat in files:
                 file_path = os.path.join(root, saved_chat)
                 # Gets the modification time, a floating-point number giving the number of seconds since the epoch
@@ -23,7 +22,6 @@ def main():
 
     def get_rid_of_headers_and_emojis():
         file_path = most_recent_file(os.getcwd())
-        print('Last modified file: ', file_path)
 
         def is_char_emoji(character):
             return character in emoji.EMOJI_DATA
@@ -37,10 +35,10 @@ def main():
         with open(file_path, 'r', encoding='utf-8') as file:
             file_content = []
             for line in file:
-                print(line)
                 # Get the lines starting with a tab and not containing emojis
                 if line.startswith('\t') and not text_has_emoji(line):
                     file_content.append(line.strip())  # Stripping whitespace
+                    print(line)
         return file_content
 
     def chat_to_txt():
@@ -49,7 +47,7 @@ def main():
         with open(clean_chat, 'w') as file:
             for index in clean_content:
                 file.write(f'{index}\n')
-        print(f"\nZoom's chat was cleaned and written to '{clean_chat}'")
+        print(f"\tZoom's chat was cleaned and written to '{clean_chat}'")
 
     chat_to_txt()
 
