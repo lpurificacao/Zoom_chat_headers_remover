@@ -5,9 +5,7 @@ ${\huge{\textsf{\textcolor{#0A1589}{Zoom chat headers remover}}}}$
 
 Zoom allows us to save the chat of a meeting onto a text file.
 
-It creates for every chat a structure with a folder named with the timestamp.
-
-As you keep saving chats, this structure will grow.
+It creates for every chat a folder named with the timestamp.
 
 However, we find headers in those text files that make the reading troublesome.
 
@@ -23,7 +21,7 @@ An output file `last_chat_cleared_of_headers.txt` is created for you.
 ${\large{\textsf{\textcolor{#0A1589}{How to use it?}}}}$
 
 1. Install the emoji module with `pip install emoji`
-2. Just copy the script to the directory where you want to create your Python project.
+2. Just copy the `zoom_header_remover.py` script to the directory where you want to create your Python project.
 3. Run it from your shell or IDE. That's it.
 
 
@@ -33,5 +31,5 @@ Go the repository [Python_setup](https://github.com/lpurificacao/python_setup) a
 
 It will create the virtual environment and installs the emoji module for you.
 
-You can then download the `zoom_chat_headers_remover.py` and run it from the folder you previously created.
+You can then run the `zoom_chat_headers_remover.py` script from the folder you previously created.
 
